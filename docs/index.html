@@ -1,13 +1,61 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./styles/output.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Portifólio</title>
+  </head>
+  <body class="grid grid-rows-[1fr_7fr] bg-main-color h-screen">
+    <nav class="grid grid-cols-[5fr_3fr] border-4 border-white">
+      <div class="flex main-color items-center">
+        <span class="text-3xl pl-10">Logo</span>
+      </div>
+      <div
+        class="flex headline text-xl gap-12 pr-4 main-font paragraph items-center justify-center">
+        <span class="nav-title hover-effect">Home</span>
+        <span class="nav-title hover-effect">About</span>
+        <span class="nav-title hover-effect">Projects</span>
+        <span class="nav-title hover-effect">Contact</span>
+      </div>
+    </nav>
+    <div class="grid grid-cols-[2fr_2fr] h-full p-4">
+      <div
+        class="grid grid-rows-[1fr_2fr_1fr] border-4 border-red-900 h-full main-font">
+        <div class="headline pl-10 pt-18  text-lg">
+          <span>Olá, meu nome é Leonardo</span>
+        </div>
+        <div class="headline pl-10 pt-1 text-6xl">
+          <div><span>Back-End Developer</span></div>
+          <div><span>Java and Node.js</span></div>
+          <div
+            class="text-lg pt-4 pr-44 paragraph"><span>"Sou um desenvolvedor back-end apaixonado por criar soluções que não apenas atendam aos requisitos funcionais, mas também proporcionem desempenho excepcional e fortaleçam a confiança dos usuários através de experiências estáveis e seguras."</span></div>
+        </div>
+        <div class="flex gap-10 px-10">
+          <div>
+            <a href="#" class="card bg-button-color button-text px-8 py-4 text-xl">
+              Get In Touch <span>→</span>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="card bg-button-color button-text px-8 py-4 text-xl">
+              Get In Touch <span>→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-rows-[1fr_4fr] border-4 border-red-900 h-full main-font">
+        <div class="headline pl-10 pt-18  text-xl">
+          <span>Olá, meu nome é Leonardo</span>
+        </div>
+        <div class="headline pl-10  pt-1 text-6xl">
+          <div><span>Back-End Developer -</span></div>
+          <div><span>Java and Node.js</span></div>
+          <div class="text-xl pt-4"><span>Java and Node.js</span></div>
+        </div>
+      </div>
+    </body>
+  </html>

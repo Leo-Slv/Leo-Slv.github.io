@@ -188,6 +188,67 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+
+  @font-face {
+    font-family: 'SpecialGothic';
+    src: url('./fonts/SpecialGothicCondensedOne-Regular.ttf')
+  }
+  .bg-main-color{
+    background-color: #16161a;
+  }
+
+  .headline{
+    color: #fffffe;
+  }
+
+  .paragraph{
+    color: #94a1b2;
+  }
+
+  .bg-button-color{
+    background-color: #7f5af0;
+  }
+
+  .main-color{
+    color: #7f5af0;
+  }
+
+  .main-font{
+    font-family: "SpecialGothic";
+  }
+
+  .button-text{
+    color: #fffffe;
+  }
+
+  .nav-title{
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out; 
+  }
+  .nav-title:hover{
+    transform: scale(1.2);
+    color: #fffffe;
+  }
+
+  .hover-effect {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .hover-effect::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #7f5af0;
+    transition: width 0.3s ease;
+  }
+
+  .hover-effect:hover::after {
+    width: 100%;
+  }
 }
 @property --tw-border-style {
   syntax: "*";
