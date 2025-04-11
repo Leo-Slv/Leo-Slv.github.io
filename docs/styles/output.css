@@ -249,6 +249,10 @@
   .hover-effect:hover::after {
     width: 100%;
   }
+
+  .java{
+    height: 200px;
+  }
 }
 @property --tw-border-style {
   syntax: "*";
