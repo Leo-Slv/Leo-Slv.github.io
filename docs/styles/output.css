@@ -253,6 +253,46 @@
   .java{
     height: 200px;
   }
+
+  .icon-hover{
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out; 
+  }
+
+  .icon-hover:hover{
+    transform: scale(1.17);
+    color: #fffffe;
+  }
+
+  .button-hover{
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out; 
+  }
+
+  .button-hover:hover{
+    transform: scale(1.05);
+    color: #fffffe;
+  }
+
+  .nav-title.active {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out; 
+    transform: scale(1.2);
+    color: #fffffe;
+}
+
+.nav-title.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Garante que a linha esteja completamente visível */
+    height: 2px;
+    background-color: #7f5af0;
+    transition: width 0.3s ease; /* Mantém a transição */
+}
+
+
 }
 @property --tw-border-style {
   syntax: "*";
