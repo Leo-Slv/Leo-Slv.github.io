@@ -10,72 +10,131 @@
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet" />
   </head>
-  <body class="grid grid-rows-[1fr_7fr] bg-main-color h-screen">
-    <nav class="grid grid-cols-[5fr_3fr]">
-      <div class="flex main-color items-center">
-        <span class="pl-10"><img class="h-20"
-            src="./assets/l-logo.png"</span>
-        </div>
-        <div
-          class="flex headline text-xl gap-12 pr-4 main-font paragraph items-center justify-center">
-          <a id="menu-home" href="index.html"
-            class="nav-title hover-effect">Home</a>
-          <a id="menu-about" href="about.html"
-            class="nav-title hover-effect">About</a>
-          <a id="menu-projects" href="projects.html"
-            class="nav-title hover-effect">Projects</a>
-          <a id="menu-contact" href="contact.html"
-            class="nav-title hover-effect">Contact</a>
-        </div>
-      </nav>
-      <div class="grid grid-cols-[2fr_2fr] h-full p-4">
-        <div
-          class="grid grid-rows-[1fr_2fr_1fr] h-full main-font">
-          <div class="headline pl-24 pt-18  text-lg">
-            <span>Olá, meu nome é Leonardo</span>
+  <body class="grid grid-rows-[1fr_1fr_1fr_1fr] bg-main-color h-full">
+    <!-- Inicio da home-->
+    <div class="grid grid-rows-[1fr_8fr] h-full">
+      <nav class="grid grid-cols-[5fr_3fr]" id="home">
+        <div class="flex main-color items-center">
+          <span class="pl-10"><img class="h-20"
+              src="./assets/l-logo.png"</span>
           </div>
-          <div class="headline pl-24 pt-1 text-6xl">
-            <div><span>Back-End Developer</span></div>
-            <div><span>Java and Node.js</span></div>
-            <div
-              class="text-lg pt-4 pr-44 paragraph"><span>"Sou um desenvolvedor back-end apaixonado por criar soluções que não apenas atendam aos requisitos funcionais, mas também proporcionem desempenho excepcional e fortaleçam a confiança dos usuários através de experiências estáveis e seguras."</span></div>
-          </div>
-          <div class="flex gap-10 px-10 pl-24">
-            <div class="button-hover">
-              <a href="#"
-                class="card bg-button-color button-text px-8 py-4 text-xl border-black border-b-5 border-r-5 hover:bg-violet-400">
-                Get In Touch <span>→</span>
-              </a>
-            </div>
-            <div class="button-hover">
-              <a href="#"
-                class="card bg-button-color button-text px-8 py-4 text-xl border-black border-b-5 border-r-5 hover:bg-violet-400">
-                Download CV <span>&#x2B73;</span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="grid grid-rows-[3fr_1fr] h-full main-font align-center justify-center">
           <div
-            class="flex align-center justify-center headline pl-10 pt-18 text-6xl">
-            <img class="h-80 w-96 rounded-xl" src="./assets/code-vetor (2).png"
-              alt>
+            class="flex headline text-xl gap-12 pr-4 main-font paragraph items-center justify-center">
+            <a id="menu-home" href="#home"
+              class="nav-title hover-effect">Home</a>
+            <a id="menu-about" href="#about"
+              class="nav-title hover-effect">About</a>
+            <a id="menu-projects" href="#projects"
+              class="nav-title hover-effect">Projects</a>
+            <a id="menu-contact" href="#contact"
+              class="nav-title hover-effect">Contact</a>
           </div>
-          <div class="flex align-center justify-center slider-container">
-            <div class="grid grid-cols-4 px-10 pb-5 slide gap-10">
-              <div class="w-20 icon-hover"><img src="./assets/icon1.png"
-                  alt="Language 1"></div>
-              <div class="w-20 icon-hover"><img src="./assets/icon2.png"
-                  alt="Language 2"></div>
-              <div class="w-20 icon-hover"><img src="./assets/icon3.png"
-                  alt="Language 3"></div>
-              <div class="w-20 icon-hover"><img src="./assets/icon4.png"
-                  alt="Language 3"></div>
+        </nav>
+        <div class="grid grid-cols-[2fr_2fr] h-full p-4">
+          <div
+            class="grid grid-rows-[1fr_2fr_1fr] h-full main-font">
+            <div class="headline pl-24 pt-18  text-lg">
+              <span>Olá, meu nome é Leonardo</span>
+            </div>
+            <div class="headline pl-24 pt-1 text-6xl">
+              <div><span>Back-End Developer</span></div>
+              <div><span>Java and Node.js</span></div>
+              <div
+                class="text-lg pt-4 pr-44 paragraph"><span>"Sou um desenvolvedor back-end apaixonado por criar soluções que não apenas atendam aos requisitos funcionais, mas também proporcionem desempenho excepcional e fortaleçam a confiança dos usuários através de experiências estáveis e seguras."</span></div>
+            </div>
+            <div class="flex gap-10 px-10 pl-24">
+              <div class="button-hover">
+                <a href="#"
+                  class="card bg-button-color button-text px-8 py-4 text-xl border-black border-b-5 border-r-5 hover:bg-violet-400">
+                  Get In Touch <span>→</span>
+                </a>
+              </div>
+              <div class="button-hover">
+                <a href="#"
+                  class="card bg-button-color button-text px-8 py-4 text-xl border-black border-b-5 border-r-5 hover:bg-violet-400">
+                  Download CV <span>&#x2B73;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="grid grid-rows-[3fr_1fr] h-full main-font align-center justify-center">
+            <div
+              class="flex align-center justify-center headline pl-10 pt-18 text-6xl">
+              <img class="h-80 w-96 rounded-xl"
+                src="./assets/code-vetor (2).png"
+                alt>
+            </div>
+            <div class="flex align-center justify-center slider-container">
+              <div class="grid grid-cols-5 px-10 pb-5 slide gap-10">
+                <div
+                  class="w-16 h-23 icon-hover text-center nav-title hover-effect"><img
+                    src="./assets/icon1.png"
+                    alt="Language 1">
+                  <span class="headline text-base main-font">SpringBoot</span>
+                </div>
+                <div
+                  class="w-16 h-23 icon-hover text-center nav-title hover-effect"><img
+                    src="./assets/icon2.png"
+                    alt="Language 2">
+                  <span class="headline text-base main-font">Node.JS</span>
+                </div>
+                <div
+                  class="w-16 h-23 icon-hover text-center nav-title hover-effect"><img
+                    src="./assets/icon3.png"
+                    alt="Language 3">
+                  <span class="headline text-base main-font">TypeScript</span>
+                </div>
+                <div
+                  class="w-16 h-23 icon-hover text-center nav-title hover-effect"><img
+                    src="./assets/icon4.png"
+                    alt="Language 3">
+                  <span class="headline text-base main-font">Angular</span>
+                </div>
+                <div
+                  class="w-16 h-23 icon-hover text-center nav-title hover-effect"><img
+                    src="./assets/icon5.png"
+                    alt="Language 5">
+                  <span class="headline text-base">React</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <!-- Fim da home-->
+
+        <!-- Inicio do about-->
+        <div class="grid grid-rows-[4fr_7fr] h-full">
+          <div class="grid grid-rows-[1fr_1fr] pt-10">
+            <div class="flex align-center justify-center">
+              <span class="headline text-6xl main-font text-center">About</span>
+            </div>
+            <div class="flex align-center justify-center">
+              <img src="./assets/me.jpg" alt="Eu">
+            </div>
+          </div>
+          <div class="grid grid-cols-[2fr_2fr] h-full p-4">
+            <div class="flex align-center justify-center">
+              <img class="rounded-xl w-170 h-96" src="./assets/me.avif"
+                alt="Eu">
+            </div>
+
+            <div
+              class="grid grid-rows-[1fr_2fr] h-full main-font border-[#7f5af0] border-5 rounded-xl">
+              <div class=" headline text-6xl">
+                <div><span>Back-End Developer</span></div>
+                <div><span>Java and Node.js</span></div>
+              </div>
+              
+                <div
+                  class=" text-lg  paragraph"><span>"Sou um desenvolvedor back-end apaixonado por criar soluções que não apenas atendam aos requisitos funcionais, mas também proporcionem desempenho excepcional e fortaleçam a confiança dos usuários através de experiências estáveis e seguras."</span></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Fim da about-->
         <script
           src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
       </body>
