@@ -14,11 +14,12 @@
     <nav class="grid grid-cols-[5fr_3fr]">
       <div class="flex main-color items-center">
         <span class="pl-10"><img class="h-20"
-            src="/docs/assets/l-logo.png"</span>
+            src="./assets/l-logo.png"</span>
         </div>
         <div
           class="flex headline text-xl gap-12 pr-4 main-font paragraph items-center justify-center">
-          <a id="menu-home" href="index.html" class="nav-title hover-effect">Home</a>
+          <a id="menu-home" href="index.html"
+            class="nav-title hover-effect">Home</a>
           <a id="menu-about" href="about.html"
             class="nav-title hover-effect">About</a>
           <a id="menu-projects" href="projects.html"
@@ -64,43 +65,18 @@
           </div>
           <div class="flex align-center justify-center slider-container">
             <div class="grid grid-cols-4 px-10 pb-5 slide gap-10">
-              <div class="w-20 icon-hover"><img src="/docs/assets/icon1.png"
+              <div class="w-20 icon-hover"><img src="./assets/icon1.png"
                   alt="Language 1"></div>
-              <div class="w-20 icon-hover"><img src="/docs/assets/icon2.png"
+              <div class="w-20 icon-hover"><img src="./assets/icon2.png"
                   alt="Language 2"></div>
-              <div class="w-20 icon-hover"><img src="/docs/assets/icon3.png"
+              <div class="w-20 icon-hover"><img src="./assets/icon3.png"
                   alt="Language 3"></div>
-              <div class="w-20 icon-hover"><img src="/docs/assets/icon4.png"
+              <div class="w-20 icon-hover"><img src="./assets/icon4.png"
                   alt="Language 3"></div>
             </div>
           </div>
         </div>
         <script
           src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-        <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const path = window.location.pathname;
-        
-        // Mapear as páginas aos elementos de menu
-        const menuMap = {
-          "/docs/index.html": "menu-home",
-          "/docs/about.html": "menu-about",
-          "/docs/projects.html": "menu-projects",
-          "/docs/contact.html": "menu-contact"
-        };
-        
-        // Obter o ID do menu correspondente à página atual
-        const activeMenuId = menuMap[path];
-    
-        // Se encontrado, adicionar a classe "active"
-        if (activeMenuId) {
-          const activeElement = document.getElementById(activeMenuId);
-          if (activeElement) {
-            activeElement.classList.add("active");
-          }
-        }
-      });
-    </script>
-
       </body>
     </html>
