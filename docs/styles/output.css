@@ -305,6 +305,14 @@
     transition: width 0.3s ease; /* Mantém a transição */
 }
 
+.hover-animation{
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out; 
+  }
+  .hover-animation:hover{
+    transform: scale(1.2);
+    color: #fffffe;
+  }
+
 
 }
 @property --tw-border-style {

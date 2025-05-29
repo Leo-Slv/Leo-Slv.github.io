@@ -11,7 +11,7 @@
       rel="stylesheet" />
   </head>
   <body class="grid grid-rows-[1fr_1fr_1fr_1fr] bg-main-color h-full">
-    <!-- Inicio da home-->
+    <!-- Inicio da navbar-->
     <div class="grid grid-rows-[1fr_8fr] h-full">
       <nav class="grid grid-cols-[5fr_3fr]" id="home">
         <div class="flex main-color items-center">
@@ -23,13 +23,17 @@
             <a id="menu-home" href="#home"
               class="nav-title hover-effect">Home</a>
             <a id="menu-about" href="#about"
-              class="nav-title hover-effect">About</a>
+              class="nav-title hover-effect">Sobre</a>
             <a id="menu-projects" href="#projects"
-              class="nav-title hover-effect">Projects</a>
+              class="nav-title hover-effect">Projetos</a>
             <a id="menu-contact" href="#contact"
-              class="nav-title hover-effect">Contact</a>
+              class="nav-title hover-effect">Contatos</a>
           </div>
         </nav>
+
+        <!-- Fim da navbar-->
+
+        <!-- Inicio da home-->
         <div class="grid grid-cols-[2fr_2fr] h-full p-4">
           <div
             class="grid grid-rows-[1fr_2fr_1fr] h-full main-font">
@@ -44,15 +48,15 @@
             </div>
             <div class="flex gap-10 pt-9 px-10 pl-24">
               <div class="button-hover">
-                <a href="#"
+                <a href="#about"
                   class="card bg-button-color button-text px-8 py-4 text-xl border-black border-b-5 border-r-5 hover:bg-violet-400">
-                  Get In Touch <span>→</span>
+                  Saiba Mais
                 </a>
               </div>
               <div class="button-hover">
                 <a href="#"
                   class="card bg-button-color button-text px-8 py-4 text-xl border-black border-b-5 border-r-5 hover:bg-violet-400">
-                  Download CV <span>&#x2B73;</span>
+                  Curriculo <span>&#x2B73;</span>
                 </a>
               </div>
             </div>
@@ -105,13 +109,17 @@
         <!-- Fim da home-->
 
         <!-- Inicio do about-->
-        <div class="grid grid-rows-[4fr_7fr] h-full">
-          <div class="grid grid-rows-[1fr_1fr] pt-10" id="about">
+        <div class="grid grid-rows-[2fr_3fr] h-full">
+          <div class="grid grid-rows-[1fr_2fr] pt-3" id="about">
             <div class="flex align-center justify-center">
-              <span class="headline text-6xl main-font text-center">About</span>
+              <span class="headline text-6xl main-font text-center">Sobre</span>
             </div>
             <div class="flex align-center justify-center">
-              <img src="./assets/me.jpg" alt="Eu">
+              <a href="https://github.com/Leo-Slv" target="_blank"
+                  rel="noopener noreferrer">
+                  <img src="./assets/eu.jpeg"
+                    class="rounded-full h-40 w-40 hover-animation border-[#7f5af0] border-5" alt="Eu">
+                </a>
             </div>
           </div>
           <div class="grid grid-cols-[2fr_2fr] h-full p-4">
@@ -121,21 +129,33 @@
             </div>
 
             <div
-              class="grid grid-rows-[1fr_2fr] h-full main-font border-[#7f5af0] border-5 rounded-xl">
+              class="grid grid-rows-[1fr_2fr] h-full main-font border-[#7f5af0] border-5 rounded-xl p-10">
               <div class=" headline text-6xl">
-                <div><span>Back-End Developer</span></div>
-                <div><span>Java and Node.js</span></div>
+                <div><span>Meu Valor</span></div>
               </div>
-              
-                <div
-                  class=" text-lg  paragraph"><span>"Sou um desenvolvedor back-end apaixonado por criar soluções que não apenas atendam aos requisitos funcionais, mas também proporcionem desempenho excepcional e fortaleçam a confiança dos usuários através de experiências estáveis e seguras."</span></div>
-              </div>
+
+              <div
+                class=" text-lg  paragraph"><span>"Aos 20 anos, sou um
+                  desenvolvedor back-end apaixonado por criar soluções robustas
+                  e escaláveis. Com experiência em Node.js, Spring Boot e
+                  TypeScript, desenvolvo APIs e sistemas que priorizam
+                  performance e segurança, aplicando conceitos de Domain-Driven
+                  Design (DDD) para criar arquiteturas bem estruturadas e
+                  alinhadas às necessidades do negócio.
+                  Também possuo conhecimentos em Angular e React, o que me
+                  permite ter uma visão completa do desenvolvimento full-stack e
+                  colaborar efetivamente com equipes front-end.
+                  Estou em busca de oportunidades que me permitam aplicar meus
+                  conhecimentos técnicos enquanto continuo evoluindo como
+                  desenvolvedor, contribuindo para projetos inovadores e
+                  impactantes."</span></div>
             </div>
           </div>
-
         </div>
-        <!-- Fim da about-->
-        <script
-          src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-      </body>
-    </html>
+
+      </div>
+      <!-- Fim da about-->
+      <script
+        src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    </body>
+  </html>
